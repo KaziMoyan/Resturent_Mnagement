@@ -1,0 +1,58 @@
+
+body{
+    font-family: latha;
+    color: white;
+    
+    background:linear-gradient(rgba(9, 5, 5, 0.85) ,rgba(11, 7, 7, 0.945),rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.95)),url(foodd.jpg)no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 900px;
+    float:right;
+    border: 1px solid black;
+}
+.box ul li{
+    width:120px ;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+.box ul li a{text-decoration: none;
+color: darkgrey;}
+.box ul li:hover{background-color: rgb(217, 2, 199);}
+.box ul li a:hover{color: rgb(140, 181, 217);}
+
+.wd{
+    width:300px ;
+    height: 450px;
+    
+    opacity: 1;
+    padding: 50px;
+}
+.wd h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 10px;
+
+}
+.wd h4{
+    text-align: justify;
+    color: darkgrey;
+    font-weight: normal;
+}
+.wd h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.opt form,input[type="button"]{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin:4px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    text-align: right;
+}
+form,input[type="button"]:hover{background-color: green;}
